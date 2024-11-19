@@ -1,0 +1,119 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+  <style>
+    /* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    background-image: linear-gradient(90deg, #add7f8d1, #dfd8d8af, #4cb7d8);
+}
+
+.contact-section {
+    background-color: #a3d4e373;
+    padding: 2em;
+    margin-top: 5%;
+    justify-content: center;
+    border: 1px solid #0d0c0c;
+    box-shadow:0 0 10px rgba(30, 164, 218, 0.352);
+    width: 550px;
+    height: 550px;
+}
+
+.contact-section h1 {
+    margin-top: 0;
+}
+h1{
+    font-size: 4.5rem;
+    color:#fff;
+}
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #4a91b396;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #ece7e7;
+}
+
+@media screen and (min-width: 280px) and (max-width: 576px) { 
+
+.body{
+    background-image: linear-gradient(90deg, #add7f8d1, #dfd8d8af, #4cb7d8);
+    background-repeat: no-repeat;
+    margin :0px 0px;
+    padding: 0;
+    
+}
+
+.contact-section {
+    background-color: #a3d4e373;
+    padding: 0.5rem;
+    border: 1px solid #0d0c0c;
+    box-shadow:0 0 10px rgba(30, 164, 218, 0.352);
+    width: 310px;
+    height: 450px;
+}
+
+input[type="submit"]
+{
+    padding: 5px 5px;
+
+}
+
+input, textarea {
+    width: 90%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+h1{
+    font-size: x-large;
+}
+}
+
+  </style>
+</head>
+<body>
+    <center>
+        <section class="contact-section">
+            <h1>Get in Touch</h1>
+            <p>.</p>
+            <form>
+               <h3> <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea><br><br>
+                <input type="submit" value="Send"></h3>
+            </form>
+        </section>
+    </center>
+</body>
+</html>
